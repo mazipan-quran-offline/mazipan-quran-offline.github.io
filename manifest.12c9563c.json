@@ -1,0 +1,54 @@
+{
+  "name": "Baca-Quran.id",
+  "short_name": "Quran",
+  "description": "Ayat-ayat Al-Qur'an beserta terjemahan dan tafsir dari Kemenag, ❌ tanpa ada iklan, ❌ tanpa ada analitik, ✅ gratis sepenuhnya",
+  "icons": [
+    {
+      "src": "https://www.baca-quran.id/icons/icon_64x64.c82b82.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://www.baca-quran.id/icons/icon_120x120.c82b82.png",
+      "sizes": "120x120",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://www.baca-quran.id/icons/icon_144x144.c82b82.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://www.baca-quran.id/icons/icon_152x152.c82b82.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://www.baca-quran.id/icons/icon_192x192.c82b82.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://www.baca-quran.id/icons/icon_384x384.c82b82.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://www.baca-quran.id/icons/icon_512x512.c82b82.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#f6f7f8",
+  "theme_color": "#f6f7f8",
+  "lang": "id"
+}
