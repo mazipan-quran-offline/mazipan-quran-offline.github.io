@@ -1,0 +1,1 @@
+import{w as r}from"./index.2804c5e1.js";function a(){const{subscribe:e,set:o,update:s}=r({show:!1,title:"",content:""});return{subscribe:e,hide:()=>s(t=>({...t,show:!1})),show:t=>o({...t,show:!0})}}const n=a();export{n as g};
