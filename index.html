@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="theme-light">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="/images/icon-32.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link rel="modulepreload" href="/_app/immutable/entry/start.93503004.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/start.59126ec2.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/scheduler.3e05c3cd.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/singletons.4125467a.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/singletons.86e3eed6.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/index.6b9c2dcb.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/environment.657f1eb9.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/environment.52b98fcd.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/control.f5b05b5f.js">
-		<link rel="modulepreload" href="/_app/immutable/entry/app.eade093f.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.df2781d5.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/preload-helper.a4192956.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/index.88729116.js">
 	</head>
@@ -19,7 +19,7 @@
 		<div style="display: contents">
 			<script>
 				{
-					__sveltekit_5r21on = {
+					__sveltekit_1oztuyr = {
 						base: "",
 						env: {"PUBLIC_FIREBASE_API_KEY":"AIzaSyChBEY5EioADQmnfs3B28M3y1boTuGQmyQ","PUBLIC_FIREBASE_AUTH_DOMAIN":"baca-quran-id.firebaseapp.com","PUBLIC_FIREBASE_PROJECT_ID":"baca-quran-id","PUBLIC_FIREBASE_STORAGE_BUCKET":"baca-quran-id.appspot.com","PUBLIC_FIREBASE_MESSAGING_SENDER_ID":"1022678905567","PUBLIC_FIREBASE_APP_ID":"1:1022678905567:web:18b62c4d8d12dabb9caf6a","PUBLIC_FIREBASE_MEASUREMENT_ID":"G-SFVBG4QWNG"}
 					};
@@ -27,8 +27,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("/_app/immutable/entry/start.93503004.js"),
-						import("/_app/immutable/entry/app.eade093f.js")
+						import("/_app/immutable/entry/start.59126ec2.js"),
+						import("/_app/immutable/entry/app.df2781d5.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
@@ -40,8 +40,8 @@
 			(function () {
 				// Unused for now
 				window.__headerTheme = {
-					dark: '#172642',
 					light: '#f5f7fb',
+					dark: '#172642',
 					sepia: '#704214'
 				};
 
@@ -51,15 +51,10 @@
 					sepia: 'text-gray-200'
 				};
 
-				var __currentTheme;
-				try {
-					__currentTheme = localStorage.getItem('theme');
-				} catch (err) {}
+				window.__theme = 'light';
 
 				function setTheme(newTheme) {
 					window.__theme = newTheme;
-					__currentTheme = newTheme;
-					// document.body.className = newTheme;
 					document.querySelector('html').setAttribute('class', `theme-${newTheme}`);
 					document
 						.querySelector('body')
@@ -73,7 +68,10 @@
 				window.__setActiveTheme = setTheme;
 
 				// Run on the page load
-				setTheme(__currentTheme);
+				try {
+					window.__theme = localStorage.getItem('theme');
+				} catch (err) {}
+				setTheme(window.__theme);
 			})();
 		</script>
 
