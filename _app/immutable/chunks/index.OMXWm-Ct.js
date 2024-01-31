@@ -1,0 +1,1 @@
+import{w as s}from"./index.qysRG29d.js";const t=s(""),e=s(!1),n=s(!1),o=s(!1),i=s("1"),c=s(!1),l=s(null),r=s(!1),f=s(!1),g=s({verse:"",surah:"",totalAyah:0}),u=s([]),d=s([]);export{n as a,c as b,i as c,l as d,g as e,t as f,f as g,o as h,r as i,d as l,u as p,e as s};
