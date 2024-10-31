@@ -1,0 +1,1 @@
+import{G as o,H as f,I as i,y as p,J as c,K as d,L as h}from"./runtime.O72gEqfx.js";function _(e,n,...t){var s=e,r=p,a;o(()=>{r!==(r=n())&&(a&&(c(a),a=null),a=i(()=>r(s,...t)))},f),d&&(s=h)}export{_ as s};

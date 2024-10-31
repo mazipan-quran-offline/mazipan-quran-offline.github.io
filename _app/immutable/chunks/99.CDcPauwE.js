@@ -1,0 +1,1 @@
+const a={translation:"Guncangan",arabic:"الزلزلة",latin:"Az-Zalzalah",ayah_count:8,index:99},n={translation:"Bukti Nyata",arabic:"البيّنة",latin:"Al-Bayyinah",ayah_count:8,index:98},t={translation:"Kuda Yang Berlari Kencang",arabic:"العٰديٰت",latin:"Al-'Adiyat",ayah_count:11,index:100},i={current:a,prev:n,next:t};export{i as default};
