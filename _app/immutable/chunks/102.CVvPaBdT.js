@@ -1,0 +1,1 @@
+const a={translation:"Bermegah-Megahan",arabic:"التكاثر",latin:"At-Takasur",ayah_count:8,index:102},n={translation:"Hari Kiamat",arabic:"القارعة",latin:"Al-Qari'ah",ayah_count:11,index:101},t={translation:"Asar",arabic:"العصر",latin:"Al-'Asr",ayah_count:3,index:103},r={current:a,prev:n,next:t};export{r as default};
