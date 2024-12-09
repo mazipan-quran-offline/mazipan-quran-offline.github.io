@@ -1,0 +1,1 @@
+import{g as s,w as r}from"./index.BJSl2dn6.js";function l(){const e=r({show:!1,title:"",content:""});return{subscribe:e.subscribe,hide:()=>e.update(t=>({...t,show:!1})),show:t=>e.set({...t,show:!0}),toggle:t=>{const o=s(e);return o.show&&o.title===t.title?e.set({...t,show:!1}):e.set({...t,show:!0})}}}const n=l();export{n as g};

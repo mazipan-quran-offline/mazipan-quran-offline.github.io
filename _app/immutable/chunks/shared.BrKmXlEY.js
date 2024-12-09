@@ -1,0 +1,1 @@
+import{y as o,z as a,A as n,o as c}from"./utils.BRpUjsf8.js";import{c as s}from"./utils.DyTynh2I.js";function f(t){var _=n,e=c;o(null),a(null);try{return t()}finally{o(_),a(e)}}function l(t,_,e,r=e){t.addEventListener(_,()=>f(e));const i=t.__on_r;i?t.__on_r=()=>{i(),r()}:t.__on_r=r,s()}export{l};
