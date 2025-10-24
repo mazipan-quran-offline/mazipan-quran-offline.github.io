@@ -21,6 +21,8 @@
 	import { onMount } from 'svelte';
 	import Button from '$lib/ui/Button.svelte';
 	import ArrowRightIcon from '$lib/icons/ArrowRightIcon.svelte';
+	import { LANGUAGE_OPTIONS, languageStore } from '$lib/checkLanguaguage';
+	const current = $derived(languageStore);
 
 	let defaultItem = {
 		'1': 0,
@@ -142,11 +144,20 @@
 </svelte:head>
 
 <div class="flex gap-2 px-4 mb-4">
-	<h1 class="text-3xl font-bold">⏺️ Pencatat Ibadah</h1>
+	<h1 class="text-3xl font-bold">
+		{$current === LANGUAGE_OPTIONS.ENGLISH.locale ? '⏺️ Worship Tracker' : '⏺️ Pencatat Ibadah'}
+	</h1>
 </div>
 
 <div class="px-4 mb-4">
-	<Breadcrumb items={[{ text: '🏠 Beranda', href: '/' }]} />
+	<Breadcrumb
+		items={[
+			{
+				text: $current === LANGUAGE_OPTIONS.ENGLISH.locale ? '🏠 Home' : '🏠 Beranda',
+				href: '/'
+			}
+		]}
+	/>
 </div>
 
 <div class="px-4 flex flex-col gap-2">
@@ -154,7 +165,7 @@
 		<p class="text-lg">{selectedDateFormatted}</p>
 		<a href="/pencatat-ibadah/rekap/">
 			<Button onClick={() => {}} class="text-sm justify-center items-center">
-				Lihat Rekap
+				{$current === LANGUAGE_OPTIONS.ENGLISH.locale ? 'View Recap' : 'Lihat Rekap'}
 				<ArrowRightIcon size="sm" />
 			</Button>
 		</a>

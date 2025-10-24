@@ -17,7 +17,6 @@ export const TITLE_CONSTANTS = {
 	SURAT_LIST: 'Daftar Surat',
 	ABOUT: 'Tentang'
 };
-
 export const CONSTANTS = {
 	STORAGE_KEY: {
 		TRANSLATION: 'trsla',
@@ -34,7 +33,6 @@ export const CONSTANTS = {
 	},
 	BISMILLAH: '﷽'
 };
-
 const postfix = (withTafsir: boolean) =>
 	`beserta terjemahan${
 		withTafsir ? ' dan tafsir dari Kemenag' : ''
@@ -124,10 +122,11 @@ export type PageVariant =
 	| 'MADANIYAH'
 	| 'JADWAL_SHOLAT'
 	| 'CATAT_IBADAH';
+// Using translation system instead of direct language comparison
 
 export const SEO_TEXT = {
 	ALL_SURAH:
-		'Baca Quran lengkap 30 Juz 114 Surat beserta terjemahan bahasa Indonesia dan tafsir dari Kemenag. Langsung dari peramban, tanpa iklan, tanpa analitik, privasi aman dan gratis sepenuhnya.',
+		'Baca Quran Surat-Surat Makkiyah beserta terjemahan bahasa Indonesia dan tafsir dari Kemenag. Langsung dari peramban, tanpa iklan, tanpa analitik, privasi aman dan gratis sepenuhnya.',
 	MAKKIYAH:
 		'Baca Quran Surat-Surat Makkiyah beserta terjemahan bahasa Indonesia dan tafsir dari Kemenag. Langsung dari peramban, tanpa iklan, tanpa analitik, privasi aman dan gratis sepenuhnya.',
 	MADANIYAH:

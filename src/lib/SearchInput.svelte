@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { t } from './translations/store';
 	import SearchIcon from './icons/SearchIcon.svelte';
 
 	interface Props {
@@ -7,7 +8,7 @@
 		placeholder?: string;
 	}
 
-	let { onChange, searchText = '', placeholder = 'Cari surat apa?' }: Props = $props();
+	let { onChange, searchText = '', placeholder = $t('ui.findWhatLetter') }: Props = $props();
 </script>
 
 <div class="relative mb-4">

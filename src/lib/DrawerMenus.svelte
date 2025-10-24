@@ -1,4 +1,5 @@
 <script>
+	import { t } from './translations/store';
 	import HashtagIcon from './icons/HashtagIcon.svelte';
 	import HomeIcon from './icons/HomeIcon.svelte';
 	import InformationCircleIcon from './icons/InformationCircleIcon.svelte';
@@ -14,7 +15,7 @@
 			class="flex gap-2 items-center p-2 rounded-md hover:bg-primary focus:bg-primary"
 		>
 			<HomeIcon />
-			Beranda
+			{$t('navigation.home')}
 		</a>
 	</li>
 	<li class="sidebar__item">
@@ -24,7 +25,7 @@
 			class="flex gap-2 items-center p-2 rounded-md hover:bg-primary focus:bg-primary"
 		>
 			<SettingIcon />
-			Setelan
+			{$t('navigation.settings')}
 		</a>
 	</li>
 	<li class="sidebar__item">
@@ -34,7 +35,7 @@
 			class="flex gap-2 items-center p-2 rounded-md hover:bg-primary focus:bg-primary"
 		>
 			<ResetIcon />
-			Sync
+			{$t('navigation.sync')}
 		</a>
 	</li>
 	<li class="sidebar__item">
@@ -45,7 +46,7 @@
 			class="flex gap-2 items-center p-2 rounded-md hover:bg-primary focus:bg-primary"
 		>
 			<HashtagIcon />
-			AyatHariIni
+			{$t('navigation.ayatOfTheDay')}
 		</a>
 	</li>
 	<li class="sidebar__item">
@@ -55,7 +56,7 @@
 			class="flex gap-2 items-center p-2 rounded-md hover:bg-primary focus:bg-primary"
 		>
 			<InformationCircleIcon />
-			Tentang
+			{$t('navigation.about')}
 		</a>
 	</li>
 </ul>

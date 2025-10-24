@@ -6,10 +6,11 @@
 	import MakkiyahMadaniyah from '../../data/makkiyah-madaniyah';
 	import SurahList from '$lib/SurahList.svelte';
 	import Breadcrumb from '$lib/Breadcrumb.svelte';
+	import { LANGUAGE_OPTIONS, languageStore } from '$lib/checkLanguaguage';
+	const current = $derived(languageStore);
 
 	function insertMakkiyahMadaniyah() {
 		let result: SurahInfo = {};
-		// eslint-disable-next-line @typescript-eslint/no-unused-vars
 		for (const [_, surah] of Object.entries(surahInfo)) {
 			result[surah.index] = {
 				...surah,
@@ -33,11 +34,20 @@
 </svelte:head>
 
 <div class="flex gap-2 px-4 mb-4">
-	<h1 class="text-3xl font-bold">📚 Daftar Semua Surat</h1>
+	<h1 class="text-3xl font-bold">
+		📚 {$current == LANGUAGE_OPTIONS.ENGLISH.locale ? 'List of All Surahs' : 'Daftar Semua Surat'}
+	</h1>
 </div>
 
 <div class="px-4 mb-4">
-	<Breadcrumb items={[{ text: '🏠 Beranda', href: '/' }]} />
+	<Breadcrumb
+		items={[
+			{
+				text: $current == LANGUAGE_OPTIONS.ENGLISH.locale ? '🏠 Home' : '🏠 Beranda',
+				href: '/'
+			}
+		]}
+	/>
 </div>
 
 <SurahList {originSurahInfo} />

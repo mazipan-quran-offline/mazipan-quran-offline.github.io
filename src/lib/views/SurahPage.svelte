@@ -10,7 +10,7 @@
 	import { getJsonLdArticle, getJsonLdBreadcrumb, serializeSchema } from '$lib/utils/json-ld';
 	import type { SurahInfoPage } from '$data/surah-info';
 	import { onMount } from 'svelte';
-
+	import { t } from '$lib/translations/store';
 	interface Props {
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		data: any;
@@ -23,7 +23,6 @@
 	let surahInfo = data?.surahInfo as SurahInfoPage;
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	let timeout: any = null;
-
 	onMount(() => {
 		if ($page.url.hash) {
 			if (timeout !== null) {
@@ -58,14 +57,16 @@
 </svelte:head>
 
 <div class="flex gap-2 px-4 mb-4">
-	<h1 class="text-3xl font-bold">📖 Baca per Surat</h1>
+	<h1 class="text-3xl font-bold">
+		📖 {$t('surah.readBySurah')}
+	</h1>
 </div>
 
 <div class="px-4 mb-4">
 	<Breadcrumb
 		items={[
 			{ text: '🏠', href: '/' },
-			{ text: 'Semua Surat', href: '/all-surah/' },
+			{ text: $t('navigation.allSurah'), href: '/all-surah/' },
 			{ text: surahInfo.current.latin, href: `/surah/${surahid}/` }
 		]}
 	/>
@@ -73,7 +74,7 @@
 
 <article class="px-4">
 	{#if $navigating}
-		<span>Loading...</span>
+		<span>{$t('common.loading')}</span>
 	{:else}
 		<div class="flex flex-col gap-2">
 			<SurahCard surah={surahInfo.current} />
@@ -82,7 +83,7 @@
 		<Pagination variant="surah" {surahInfo} {surahid} verseid="" />
 
 		<div class="mt-8 flex flex-col gap-4">
-			{#each Object.entries(surahData.text) as [numberVerse, verse] (verse)}
+			{#each Object.entries(surahData.text) as [numberVerse, verse] (`${surahid}-${numberVerse}`)}
 				<VerseCard
 					verse={`${verse}`}
 					{numberVerse}

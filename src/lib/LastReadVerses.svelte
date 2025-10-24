@@ -1,19 +1,22 @@
 <script lang="ts">
 	import { lastReadVerses } from '../store';
 	import CardShadow from './CardShadow.svelte';
+	import { t } from './translations/store';
 	import ArrowRightIcon from './icons/ArrowRightIcon.svelte';
 </script>
 
 <div class="flex gap-2 mb-2 mt-2">
-	<h2 class="text-xl font-bold">🔖 Ayat terakhir dibaca</h2>
+	<h2 class="text-xl font-bold">
+		🔖 {$t('surah.lastReadVerses')}
+	</h2>
 </div>
 
 {#if $lastReadVerses.length === 0}
 	<CardShadow>
 		<div class="flex justify-between items-center">
 			<div>
-				<p>Kamu belum punya ayat yang ditandai!</p>
-				<p>Yuk mulai baca dan tandai ayat.</p>
+				<p>{$t('surah.noBookmarkedVerses')}</p>
+				<p>{$t('surah.startReadingVerses')}</p>
 			</div>
 			<a
 				href="/all-surah/"

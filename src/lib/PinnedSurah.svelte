@@ -1,19 +1,22 @@
 <script lang="ts">
 	import { pinnedSurah } from '../store';
 	import CardShadow from './CardShadow.svelte';
+	import { t } from './translations/store';
 	import ArrowRightIcon from './icons/ArrowRightIcon.svelte';
 </script>
 
 <div class="flex gap-2 mb-2">
-	<h2 class="text-xl font-bold">📌 Surat yang disematkan</h2>
+	<h2 class="text-xl font-bold">
+		📌 {$t('surah.pinnedSurahs')}
+	</h2>
 </div>
 
 {#if $pinnedSurah.length === 0}
 	<CardShadow>
 		<div class="flex justify-between items-center">
 			<div>
-				<p>Kamu belum punya surah yang di pin!</p>
-				<p>Mulai pin 6 surah agar mudah diakses.</p>
+				<p>{$t('surah.noPinnedSurahs')}</p>
+				<p>{$t('surah.startPinningSurahs')}</p>
 			</div>
 			<a
 				href="/all-surah/"
