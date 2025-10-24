@@ -1,0 +1,1 @@
+import{a0 as i}from"./Bk3lDnrx.js";function u(){const{subscribe:o,set:a,update:s}=i({show:!1,message:"",type:"info"});let e;return{subscribe:o,hide:()=>s(t=>({...t,show:!1})),show:t=>(e&&clearTimeout(e),e=setTimeout(()=>{s(r=>({...r,show:!1}))},3e3),a({...t,show:!0}))}}const n=u();export{n as t};
