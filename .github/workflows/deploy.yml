@@ -1,5 +1,9 @@
 name: Deploy to GitHub Pages
 
+# Environment variables
+env:
+  TARGET_REPOSITORY: 'mazipan-quran-offline/baca-quran.id'
+
 on:
   workflow_dispatch:
   push:
@@ -20,13 +24,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    # Only run if this is the specific repository
+    if: github.repository == env.TARGET_REPOSITORY
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           persist-credentials: false
-          ref: ${{ github.head_ref }}
           fetch-depth: 0
           token: ${{ secrets.PERSONAL_TOKEN }}
 
@@ -36,7 +41,7 @@ jobs:
           run_install: false
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version-file: '.nvmrc'
           cache: 'pnpm'
@@ -58,10 +63,10 @@ jobs:
           touch build/.nojekyll
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           name: github-pages
           path: build
