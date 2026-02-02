@@ -1,0 +1,1 @@
+import{C as h,E as t,h as S,F as b,S as k}from"./B-QAtu-B.js";function u(r,i){return r===i||r?.[k]===i}function c(r={},i,a,E){return h(()=>{var f,s;return t(()=>{f=s,s=[],S(()=>{r!==a(...s)&&(i(r,...s),f&&u(a(...f),r)&&i(null,...f))})}),()=>{b(()=>{s&&u(a(...s),r)&&i(null,...s)})}}),r}export{c as b};

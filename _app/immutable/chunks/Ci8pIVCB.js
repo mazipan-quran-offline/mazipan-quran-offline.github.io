@@ -1,0 +1,1 @@
+import{A as s,B as r}from"./B-QAtu-B.js";function l(){const e=s({show:!1,title:"",content:""});return{subscribe:e.subscribe,hide:()=>e.update(t=>({...t,show:!1})),show:t=>e.set({...t,show:!0}),toggle:t=>{const o=r(e);return o.show&&o.title===t.title?e.set({...t,show:!1}):e.set({...t,show:!0})}}}const n=l();export{n as g};

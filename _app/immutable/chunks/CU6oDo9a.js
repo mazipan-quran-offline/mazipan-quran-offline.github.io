@@ -1,0 +1,1 @@
+const a={translation:"Pembukaan",arabic:"الفاتحة",latin:"Al-Fatihah",ayah_count:7,index:1},n=null,t={translation:"Sapi",arabic:"البقرة",latin:"Al-Baqarah",ayah_count:286,index:2},i={current:a,prev:n,next:t};export{i as default};

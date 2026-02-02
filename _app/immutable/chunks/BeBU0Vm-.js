@@ -1,0 +1,1 @@
+import{A as i}from"./B-QAtu-B.js";function u(){const{subscribe:o,set:r,update:s}=i({show:!1,message:"",type:"info"});let e;return{subscribe:o,hide:()=>s(t=>({...t,show:!1})),show:t=>(e&&clearTimeout(e),e=setTimeout(()=>{s(a=>({...a,show:!1}))},3e3),r({...t,show:!0}))}}const n=u();export{n as t};

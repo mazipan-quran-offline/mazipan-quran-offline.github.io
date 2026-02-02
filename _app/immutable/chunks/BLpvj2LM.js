@@ -1,0 +1,1 @@
+import{A as s}from"./B-QAtu-B.js";const t=s(""),e=s(!1),n=s(!1),o=s(!1),i=s("1"),c=s(!1),l=s(null),r=s(!1),g=s(!1),f=s({verse:"",surah:"",totalAyah:0}),u=s([]),d=s([]),h=s({});export{n as a,c as b,i as c,d,f as e,t as f,l as g,g as h,r as i,o as j,h as l,u as p,e as s};
