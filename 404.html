@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en" class="light">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/images/icon-32.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="/_app/immutable/entry/start.BhYWxi5P.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/C_2Gin00.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/BAerWf4r.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/bIc1zNft.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/CA7rRsr9.js" rel="modulepreload">
+		<link href="/_app/immutable/entry/app.CnGrXyV4.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/PPVm8Dsz.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/C4NKxZhR.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DjWxVc1R.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/pnU2o-qK.js" rel="modulepreload">
+		<link href="/_app/immutable/nodes/0.DlVYGc7Z.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/BOXnJhs7.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/CE6tEcFt.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/d_ub83v0.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/mjFvMij0.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DKo1aJ3w.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/BP7PwwDS.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/B4PG3UfV.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/suJaW4pw.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/Xge-V8wx.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/CVo8aFVg.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/C6RQjz_E.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/BB0cjLYE.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/Dq-FwZoz.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/CmkDSIyC.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/B0R5IDHW.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/CUPj5LQ4.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/EqrYozKO.js" rel="modulepreload">
+		<link href="/_app/env.js" rel="modulepreload">
+		
+		<link href="/_app/immutable/assets/0.BDwyRmnq.css" rel="stylesheet">
+	</head>
+	<body data-sveltekit-preload-data="hover" id="body" class="bg-primary text-foreground">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_cq6p15 = {
+						base: "",
+						env: null
+					};
+
+					const element = document.currentScript.parentElement;
+
+					import("/_app/env.js").then(({ env }) => {
+						__sveltekit_cq6p15.env = env;
+
+						Promise.all([
+							import("/_app/immutable/entry/start.BhYWxi5P.js"),
+							import("/_app/immutable/entry/app.CnGrXyV4.js")
+						]).then(([kit, app]) => {
+							kit.start(app, element);
+						});
+					});
+
+					if ('serviceWorker' in navigator) {
+						const script_url = '/service-worker.js';
+						const policy = globalThis?.window?.trustedTypes?.createPolicy(
+							'sveltekit-trusted-url',
+							{ createScriptURL(url) { return url; } }
+						);
+						const sanitised = policy?.createScriptURL(script_url) ?? script_url;
+						addEventListener('load', function () {
+							navigator.serviceWorker.register(sanitised);
+						});
+					}
+				}
+			</script>
+		</div>
+
+		<script>
+			(function () {
+				window.__theme = 'light';
+
+				function setProperTheme(newTheme = 'light') {
+					window.__theme = newTheme;
+					document.querySelector('html').setAttribute('class', `${newTheme}`);
+
+					try {
+						localStorage.setItem('theme', newTheme);
+					} catch (err) {}
+				}
+
+				function setTheme(newTheme = 'light') {
+					if (newTheme && newTheme !== 'null') {
+						setProperTheme(newTheme);
+					} else {
+						setProperTheme('light');
+					}
+				}
+
+				window.__setActiveTheme = setTheme;
+
+				// Run on the page load
+				try {
+					var t = localStorage.getItem('theme');
+					if (t && t !== 'null') {
+						window.__theme = t;
+					}
+				} catch (err) {}
+				setTheme(window.__theme);
+			})();
+		</script>
+	</body>
+</html>
