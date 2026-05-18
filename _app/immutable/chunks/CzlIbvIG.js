@@ -1,0 +1,1 @@
+const a={translation:"Yunus",arabic:"يونس",latin:"Yunus",ayah_count:109,index:10},n={translation:"Pengampunan",arabic:"التوبة",latin:"At-Taubah",ayah_count:129,index:9},t={translation:"Hud",arabic:"هود",latin:"Hud",ayah_count:123,index:11},u={current:a,prev:n,next:t};export{u as default};

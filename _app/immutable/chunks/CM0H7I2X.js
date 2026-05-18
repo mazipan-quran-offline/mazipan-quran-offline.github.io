@@ -1,0 +1,1 @@
+const a={translation:"Haji",arabic:"الحج",latin:"Al-Hajj",ayah_count:78,index:22},n={translation:"Para Nabi",arabic:"الانبياۤء",latin:"Al-Anbiya'",ayah_count:112,index:21},t={translation:"Orang-Orang Mukmin",arabic:"المؤمنون",latin:"Al-Mu'minun",ayah_count:118,index:23},i={current:a,prev:n,next:t};export{i as default};

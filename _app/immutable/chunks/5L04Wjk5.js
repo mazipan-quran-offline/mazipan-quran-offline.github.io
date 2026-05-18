@@ -1,0 +1,1 @@
+const a={translation:"Kerajaan",arabic:"الملك",latin:"Al-Mulk",ayah_count:30,index:67},n={translation:"Pengharaman",arabic:"التحريم",latin:"At-Tahrim",ayah_count:12,index:66},t={translation:"Pena",arabic:"القلم",latin:"Al-Qalam",ayah_count:52,index:68},r={current:a,prev:n,next:t};export{r as default};
