@@ -1,0 +1,1 @@
+var e={current:{translation:`Wanita Yang Diuji`,arabic:`الممتحنة`,latin:`Al-Mumtahanah`,ayah_count:13,index:60},prev:{translation:`Pengusiran`,arabic:`الحشر`,latin:`Al-Hasyr`,ayah_count:24,index:59},next:{translation:`Barisan`,arabic:`الصّفّ`,latin:`As-Saff`,ayah_count:14,index:61}};export{e as default};

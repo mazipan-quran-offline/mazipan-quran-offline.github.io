@@ -1,0 +1,1 @@
+var e={current:{translation:`Besi`,arabic:`الحديد`,latin:`Al-Hadid`,ayah_count:29,index:57},prev:{translation:`Hari Kiamat`,arabic:`الواقعة`,latin:`Al-Waqi'ah`,ayah_count:96,index:56},next:{translation:`Gugatan`,arabic:`المجادلة`,latin:`Al-Mujadalah`,ayah_count:22,index:58}};export{e as default};

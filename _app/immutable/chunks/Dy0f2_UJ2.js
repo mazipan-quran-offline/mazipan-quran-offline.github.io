@@ -1,0 +1,1 @@
+var e={current:{translation:`Luqman`,arabic:`لقمٰن`,latin:`Luqman`,ayah_count:34,index:31},prev:{translation:`Romawi`,arabic:`الرّوم`,latin:`Ar-Rum`,ayah_count:60,index:30},next:{translation:`Sajdah`,arabic:`السّجدة`,latin:`As-Sajdah`,ayah_count:30,index:32}};export{e as default};

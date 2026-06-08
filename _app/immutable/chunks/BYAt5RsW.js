@@ -1,0 +1,1 @@
+var e={current:{translation:`Barisan`,arabic:`الصّفّ`,latin:`As-Saff`,ayah_count:14,index:61},prev:{translation:`Wanita Yang Diuji`,arabic:`الممتحنة`,latin:`Al-Mumtahanah`,ayah_count:13,index:60},next:{translation:`Jumat`,arabic:`الجمعة`,latin:`Al-Jumu'ah`,ayah_count:11,index:62}};export{e as default};

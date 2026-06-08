@@ -1,0 +1,1 @@
+var e={current:{translation:`Para Nabi`,arabic:`الانبياۤء`,latin:`Al-Anbiya'`,ayah_count:112,index:21},prev:{translation:`Taha`,arabic:`طٰهٰ`,latin:`Taha`,ayah_count:135,index:20},next:{translation:`Haji`,arabic:`الحج`,latin:`Al-Hajj`,ayah_count:78,index:22}};export{e as default};

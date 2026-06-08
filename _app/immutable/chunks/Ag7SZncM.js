@@ -1,0 +1,1 @@
+import{dt as e}from"./GgOdLLAI.js";import"./ByIF9rDX.js";var t=e(``),n=e(!1),r=e(!1),i=e(!1),a=e(`1`),o=e(!1),s=e(null),c=e(!1),l=e(!1),u=e({verse:``,surah:``,totalAyah:0}),d=e([]),f=e([]),p=e({});export{f as a,a as c,i as d,r as f,c as i,o as l,u as n,p as o,n as p,l as r,d as s,t,s as u};

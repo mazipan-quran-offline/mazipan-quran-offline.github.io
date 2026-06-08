@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en" class="light">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../images/icon-32.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script>
+			(function () {
+				window.__theme = 'light';
+
+				function setProperTheme(newTheme = 'light') {
+					window.__theme = newTheme;
+					document.querySelector('html').setAttribute('class', `${newTheme}`);
+
+					try {
+						localStorage.setItem('theme', newTheme);
+					} catch (err) {}
+				}
+
+				function setTheme(newTheme = 'light') {
+					if (newTheme && newTheme !== 'null') {
+						setProperTheme(newTheme);
+					} else {
+						setProperTheme('light');
+					}
+				}
+
+				window.__setActiveTheme = setTheme;
+
+				try {
+					var t = localStorage.getItem('theme');
+					if (t && t !== 'null') {
+						window.__theme = t;
+					}
+				} catch (err) {}
+				setTheme(window.__theme);
+			})();
+		</script>
+		<link href="../_app/immutable/entry/start.ClnQS_zQ.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/DODhBvwa.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/GgOdLLAI.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/tnxgPMQj.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/ByIF9rDX.js" rel="modulepreload">
+		<link href="../_app/immutable/entry/app.KzTFGWdJ.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/kNaey6uv.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/xihTtKlq.js" rel="modulepreload">
+		<link href="../_app/immutable/nodes/0.D7U_DN-G.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/DTpIDayF.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/C9Hg4rJI.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/DmByrfwH.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/d4Tfr5Gc.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/Cp9Dtvmv.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/D8zxAu6d.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/CX6bKVne.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/9R2YvLok.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/CvZMThFK.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/C6sl61oA.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/Co6w1CHt.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/DlBQWRvS.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/BGyOEwMS.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/BewLpTIT.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/C8JjF-p32.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/D63BmrS9.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/Du50FES8.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/C8nPi_Oo.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/DIfFKUe-2.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/Ag7SZncM.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/CFc2IHoC2.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/y2i9sM6n.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/Cn0bfO4J.js" rel="modulepreload">
+		<link href="../_app/immutable/nodes/26.D9sSGn9D.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/nsQRAHXO.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/RqNC77V0.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/C040mat4.js" rel="modulepreload">
+		<link href="../_app/env.js" rel="modulepreload">
+		
+		<link href="../_app/immutable/assets/0.HdufFZUN.css" rel="stylesheet">
+	</head>
+	<body data-sveltekit-preload-data="hover" id="body" class="bg-primary text-foreground">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_1kbnhre = {
+						base: new URL("..", location).pathname.slice(0, -1),
+						env: null
+					};
+
+					const element = document.currentScript.parentElement;
+
+					import("../_app/env.js").then(({ env }) => {
+						__sveltekit_1kbnhre.env = env;
+
+						Promise.all([
+							import("../_app/immutable/entry/start.ClnQS_zQ.js"),
+							import("../_app/immutable/entry/app.KzTFGWdJ.js")
+						]).then(([kit, app]) => {
+							kit.start(app, element);
+						});
+					});
+
+					if ('serviceWorker' in navigator) {
+						const script_url = '../service-worker.js';
+						const policy = globalThis?.window?.trustedTypes?.createPolicy(
+							'sveltekit-trusted-url',
+							{ createScriptURL(url) { return url; } }
+						);
+						const sanitised = policy?.createScriptURL(script_url) ?? script_url;
+						addEventListener('load', function () {
+							navigator.serviceWorker.register(sanitised);
+						});
+					}
+				}
+			</script>
+		</div>
+	</body>
+</html>
