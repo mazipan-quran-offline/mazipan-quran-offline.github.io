@@ -1,0 +1,1 @@
+var e={current:{translation:`Bukti Nyata`,arabic:`البيّنة`,latin:`Al-Bayyinah`,ayah_count:8,index:98},prev:{translation:`Kemuliaan`,arabic:`القدر`,latin:`Al-Qadr`,ayah_count:5,index:97},next:{translation:`Guncangan`,arabic:`الزلزلة`,latin:`Az-Zalzalah`,ayah_count:8,index:99}};export{e as default};

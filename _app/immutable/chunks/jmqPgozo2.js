@@ -1,0 +1,1 @@
+var e={current:{translation:`Sajdah`,arabic:`السّجدة`,latin:`As-Sajdah`,ayah_count:30,index:32},prev:{translation:`Luqman`,arabic:`لقمٰن`,latin:`Luqman`,ayah_count:34,index:31},next:{translation:`Golongan Yang Bersekutu`,arabic:`الاحزاب`,latin:`Al-Ahzab`,ayah_count:73,index:33}};export{e as default};

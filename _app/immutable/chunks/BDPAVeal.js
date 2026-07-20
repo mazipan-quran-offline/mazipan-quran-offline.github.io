@@ -1,0 +1,1 @@
+import{dt as e}from"./B-CsXVSD.js";import"./DR8bpH2K.js";function t(){let{subscribe:t,set:n,update:r}=e({show:!1,message:``,type:`info`}),i;return{subscribe:t,hide:()=>r(e=>({...e,show:!1})),show:e=>(i&&clearTimeout(i),i=setTimeout(()=>{r(e=>({...e,show:!1}))},3e3),n({...e,show:!0}))}}var n=t();export{n as t};

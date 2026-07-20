@@ -1,0 +1,36 @@
+var e=({status:e,message:t})=>`<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>ERROR: `+e+` | Baca-Quran.id</title>
+	</head>
+	<body>
+		<h1>My custom error page</h1>
+		<p>Status: `+e+`</p>
+		<p>Message: `+t+`</p>
+
+		<!-- Install Service Worker -->
+		<script>
+			const registerServiceWorker = async () => {
+				if ('serviceWorker' in navigator) {
+					try {
+						const registration = await navigator.serviceWorker.register('/sw.js', {
+							scope: '/'
+						});
+						if (registration.installing) {
+							console.debug('[Baca-Quran.id] > Service worker installing...');
+						} else if (registration.waiting) {
+							console.debug('[Baca-Quran.id] > Service worker installed!');
+						} else if (registration.active) {
+							console.debug('[Baca-Quran.id] > Service worker active!');
+						}
+					} catch (error) {
+						console.error(\`[Baca-Quran.id] > SW Registration failed with \${error}\`);
+					}
+				}
+			};
+			registerServiceWorker();
+		<\/script>
+	</body>
+</html>
+`;export{e as default};

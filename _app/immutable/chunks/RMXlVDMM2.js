@@ -1,0 +1,1 @@
+var e={current:{translation:`Golongan Yang Bersekutu`,arabic:`الاحزاب`,latin:`Al-Ahzab`,ayah_count:73,index:33},prev:{translation:`Sajdah`,arabic:`السّجدة`,latin:`As-Sajdah`,ayah_count:30,index:32},next:{translation:`Saba'`,arabic:`سبأ`,latin:`Saba'`,ayah_count:54,index:34}};export{e as default};

@@ -1,0 +1,1 @@
+var e={current:{translation:`Jin`,arabic:`الجن`,latin:`Al-Jinn`,ayah_count:28,index:72},prev:{translation:`Nuh`,arabic:`نوح`,latin:`Nuh`,ayah_count:28,index:71},next:{translation:`Orang Yang Berselimut`,arabic:`المزّمّل`,latin:`Al-Muzzammil`,ayah_count:20,index:73}};export{e as default};

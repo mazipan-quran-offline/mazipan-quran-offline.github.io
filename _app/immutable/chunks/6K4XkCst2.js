@@ -1,0 +1,1 @@
+import{dt as e,lt as t}from"./B-CsXVSD.js";import"./DR8bpH2K.js";function n(){let n=e({show:!1,title:``,content:``});return{subscribe:n.subscribe,hide:()=>n.update(e=>({...e,show:!1})),show:e=>n.set({...e,show:!0}),toggle:e=>{let r=t(n);return r.show&&r.title===e.title?n.set({...e,show:!1}):n.set({...e,show:!0})}}}var r=n();export{r as t};
