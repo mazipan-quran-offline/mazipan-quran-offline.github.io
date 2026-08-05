@@ -1,0 +1,1 @@
+var e={current:{translation:`Hari Kiamat`,arabic:`الغاشية`,latin:`Al-Gasyiyah`,ayah_count:26,index:88},prev:{translation:`Maha Tinggi`,arabic:`الاعلى`,latin:`Al-A'la`,ayah_count:19,index:87},next:{translation:`Fajar`,arabic:`الفجر`,latin:`Al-Fajr`,ayah_count:30,index:89}};export{e as default};

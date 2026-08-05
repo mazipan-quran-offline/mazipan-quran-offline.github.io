@@ -1,0 +1,1 @@
+var e={current:{translation:`Sad`,arabic:`ص`,latin:`Sad`,ayah_count:88,index:38},prev:{translation:`Barisan-Barisan`,arabic:`الصّٰۤفّٰت`,latin:`As-Saffat`,ayah_count:182,index:37},next:{translation:`Rombongan`,arabic:`الزمر`,latin:`Az-Zumar`,ayah_count:75,index:39}};export{e as default};

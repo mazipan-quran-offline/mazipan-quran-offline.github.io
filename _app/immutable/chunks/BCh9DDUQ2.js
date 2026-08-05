@@ -1,0 +1,1 @@
+var e={current:{translation:`Pena`,arabic:`القلم`,latin:`Al-Qalam`,ayah_count:52,index:68},prev:{translation:`Kerajaan`,arabic:`الملك`,latin:`Al-Mulk`,ayah_count:30,index:67},next:{translation:`Hari Kiamat`,arabic:`الحاۤقّة`,latin:`Al-Haqqah`,ayah_count:52,index:69}};export{e as default};

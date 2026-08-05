@@ -1,0 +1,1 @@
+var e={current:{translation:`Lapang`,arabic:`الشرح`,latin:`Asy-Syarh`,ayah_count:8,index:94},prev:{translation:`Duha`,arabic:`الضحى`,latin:`Ad-Duha`,ayah_count:11,index:93},next:{translation:`Buah Tin`,arabic:`التين`,latin:`At-Tin`,ayah_count:8,index:95}};export{e as default};

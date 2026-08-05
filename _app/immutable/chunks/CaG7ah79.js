@@ -1,0 +1,1 @@
+var e={current:{translation:`Kemenangan`,arabic:`الفتح`,latin:`Al-Fath`,ayah_count:29,index:48},prev:{translation:`Muhammad`,arabic:`محمّد`,latin:`Muhammad`,ayah_count:38,index:47},next:{translation:`Kamar-Kamar`,arabic:`الحجرٰت`,latin:`Al-Hujurat`,ayah_count:18,index:49}};export{e as default};

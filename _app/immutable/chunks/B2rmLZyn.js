@@ -1,0 +1,1 @@
+var e={current:{translation:`Pembukaan`,arabic:`الفاتحة`,latin:`Al-Fatihah`,ayah_count:7,index:1},prev:null,next:{translation:`Sapi`,arabic:`البقرة`,latin:`Al-Baqarah`,ayah_count:286,index:2}};export{e as default};

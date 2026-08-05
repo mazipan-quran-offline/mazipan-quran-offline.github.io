@@ -1,0 +1,1 @@
+var e={current:{translation:`Maryam`,arabic:`مريم`,latin:`Maryam`,ayah_count:98,index:19},prev:{translation:`Goa`,arabic:`الكهف`,latin:`Al-Kahf`,ayah_count:110,index:18},next:{translation:`Taha`,arabic:`طٰهٰ`,latin:`Taha`,ayah_count:135,index:20}};export{e as default};

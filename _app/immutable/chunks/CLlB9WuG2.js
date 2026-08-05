@@ -1,0 +1,1 @@
+var e={current:{translation:`Nuh`,arabic:`نوح`,latin:`Nuh`,ayah_count:28,index:71},prev:{translation:`Tempat Naik`,arabic:`المعارج`,latin:`Al-Ma'arij`,ayah_count:44,index:70},next:{translation:`Jin`,arabic:`الجن`,latin:`Al-Jinn`,ayah_count:28,index:72}};export{e as default};

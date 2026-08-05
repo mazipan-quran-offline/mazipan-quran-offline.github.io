@@ -1,0 +1,1 @@
+var e={current:{translation:`Kemuliaan`,arabic:`القدر`,latin:`Al-Qadr`,ayah_count:5,index:97},prev:{translation:`Segumpal Darah`,arabic:`العلق`,latin:`Al-'Alaq`,ayah_count:19,index:96},next:{translation:`Bukti Nyata`,arabic:`البيّنة`,latin:`Al-Bayyinah`,ayah_count:8,index:98}};export{e as default};
