@@ -1,0 +1,1 @@
+var e={current:{translation:`Hari Kiamat`,arabic:`القارعة`,latin:`Al-Qari'ah`,ayah_count:11,index:101},prev:{translation:`Kuda Yang Berlari Kencang`,arabic:`العٰديٰت`,latin:`Al-'Adiyat`,ayah_count:11,index:100},next:{translation:`Bermegah-Megahan`,arabic:`التكاثر`,latin:`At-Takasur`,ayah_count:8,index:102}};export{e as default};

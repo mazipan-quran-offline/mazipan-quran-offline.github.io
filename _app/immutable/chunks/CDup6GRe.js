@@ -1,0 +1,1 @@
+var e={current:{translation:`Bermegah-Megahan`,arabic:`التكاثر`,latin:`At-Takasur`,ayah_count:8,index:102},prev:{translation:`Hari Kiamat`,arabic:`القارعة`,latin:`Al-Qari'ah`,ayah_count:11,index:101},next:{translation:`Asar`,arabic:`العصر`,latin:`Al-'Asr`,ayah_count:3,index:103}};export{e as default};

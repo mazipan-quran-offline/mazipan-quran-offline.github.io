@@ -1,0 +1,1 @@
+var e={current:{translation:`Maha Pencipta`,arabic:`فاطر`,latin:`Fatir`,ayah_count:45,index:35},prev:{translation:`Saba'`,arabic:`سبأ`,latin:`Saba'`,ayah_count:54,index:34},next:{translation:`Yasin`,arabic:`يٰسۤ`,latin:`Yasin`,ayah_count:83,index:36}};export{e as default};

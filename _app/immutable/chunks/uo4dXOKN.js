@@ -1,0 +1,1 @@
+var e={current:{translation:`Bintang`,arabic:`النجم`,latin:`An-Najm`,ayah_count:62,index:53},prev:{translation:`Bukit Tursina`,arabic:`الطور`,latin:`At-Tur`,ayah_count:49,index:52},next:{translation:`Bulan`,arabic:`القمر`,latin:`Al-Qamar`,ayah_count:55,index:54}};export{e as default};

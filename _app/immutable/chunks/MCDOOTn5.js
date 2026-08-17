@@ -1,0 +1,1 @@
+var e={current:{translation:`Orang-Orang Munafik`,arabic:`المنٰفقون`,latin:`Al-Munafiqun`,ayah_count:11,index:63},prev:{translation:`Jumat`,arabic:`الجمعة`,latin:`Al-Jumu'ah`,ayah_count:11,index:62},next:{translation:`Pengungkapan Kesalahan`,arabic:`التغابن`,latin:`At-Tagabun`,ayah_count:18,index:64}};export{e as default};

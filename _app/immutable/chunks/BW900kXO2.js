@@ -1,0 +1,1 @@
+var e={current:{translation:`Gugusan Bintang`,arabic:`البروج`,latin:`Al-Buruj`,ayah_count:22,index:85},prev:{translation:`Terbelah`,arabic:`الانشقاق`,latin:`Al-Insyiqaq`,ayah_count:25,index:84},next:{translation:`Yang Datang Di Malam Hari`,arabic:`الطارق`,latin:`At-Tariq`,ayah_count:17,index:86}};export{e as default};

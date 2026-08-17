@@ -1,0 +1,1 @@
+var e={current:{translation:`Tempat Tertinggi`,arabic:`الاعراف`,latin:`Al-A'raf`,ayah_count:206,index:7},prev:{translation:`Binatang Ternak`,arabic:`الانعام`,latin:`Al-An'am`,ayah_count:165,index:6},next:{translation:`Rampasan Perang`,arabic:`الانفال`,latin:`Al-Anfal`,ayah_count:75,index:8}};export{e as default};
