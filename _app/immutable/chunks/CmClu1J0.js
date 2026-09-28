@@ -1,0 +1,1 @@
+var e={current:{translation:`Orang Yang Berkemul`,arabic:`المدّثّر`,latin:`Al-Muddassir`,ayah_count:56,index:74},prev:{translation:`Orang Yang Berselimut`,arabic:`المزّمّل`,latin:`Al-Muzzammil`,ayah_count:20,index:73},next:{translation:`Hari Kiamat`,arabic:`القيٰمة`,latin:`Al-Qiyamah`,ayah_count:40,index:75}};export{e as default};

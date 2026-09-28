@@ -1,0 +1,1 @@
+var e={current:{translation:`Pembeda`,arabic:`الفرقان`,latin:`Al-Furqan`,ayah_count:77,index:25},prev:{translation:`Cahaya`,arabic:`النّور`,latin:`An-Nur`,ayah_count:64,index:24},next:{translation:`Para Penyair`,arabic:`الشعراۤء`,latin:`Asy-Syu'ara'`,ayah_count:227,index:26}};export{e as default};

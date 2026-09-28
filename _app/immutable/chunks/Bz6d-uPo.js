@@ -1,0 +1,1 @@
+var e={current:{translation:`Yunus`,arabic:`يونس`,latin:`Yunus`,ayah_count:109,index:10},prev:{translation:`Pengampunan`,arabic:`التوبة`,latin:`At-Taubah`,ayah_count:129,index:9},next:{translation:`Hud`,arabic:`هود`,latin:`Hud`,ayah_count:123,index:11}};export{e as default};

@@ -1,0 +1,1 @@
+var e={current:{translation:`Lebah`,arabic:`النحل`,latin:`An-Nahl`,ayah_count:128,index:16},prev:{translation:`Hijr`,arabic:`الحجر`,latin:`Al-Hijr`,ayah_count:99,index:15},next:{translation:`Memperjalankan Malam Hari`,arabic:`الاسراۤء`,latin:`Al-Isra'`,ayah_count:111,index:17}};export{e as default};

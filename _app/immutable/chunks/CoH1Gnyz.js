@@ -1,0 +1,1 @@
+var e={current:{translation:`Quraisy`,arabic:`قريش`,latin:`Quraisy`,ayah_count:4,index:106},prev:{translation:`Gajah`,arabic:`الفيل`,latin:`Al-Fil`,ayah_count:5,index:105},next:{translation:`Barang Yang Berguna`,arabic:`الماعون`,latin:`Al-Ma'un`,ayah_count:7,index:107}};export{e as default};

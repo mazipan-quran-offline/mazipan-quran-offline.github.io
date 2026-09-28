@@ -1,0 +1,1 @@
+var e={current:{translation:`Matahari`,arabic:`الشمس`,latin:`Asy-Syams`,ayah_count:15,index:91},prev:{translation:`Negeri`,arabic:`البلد`,latin:`Al-Balad`,ayah_count:20,index:90},next:{translation:`Malam`,arabic:`الّيل`,latin:`Al-Lail`,ayah_count:21,index:92}};export{e as default};

@@ -1,0 +1,1 @@
+var e={current:{translation:`Yusuf`,arabic:`يوسف`,latin:`Yusuf`,ayah_count:111,index:12},prev:{translation:`Hud`,arabic:`هود`,latin:`Hud`,ayah_count:123,index:11},next:{translation:`Guruh`,arabic:`الرّعد`,latin:`Ar-Ra'd`,ayah_count:43,index:13}};export{e as default};

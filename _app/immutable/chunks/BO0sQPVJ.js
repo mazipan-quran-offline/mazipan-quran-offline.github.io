@@ -1,0 +1,1 @@
+var e={current:{translation:`Subuh`,arabic:`الفلق`,latin:`Al-Falaq`,ayah_count:5,index:113},prev:{translation:`Ikhlas`,arabic:`الاخلاص`,latin:`Al-Ikhlas`,ayah_count:4,index:112},next:{translation:`Manusia`,arabic:`الناس`,latin:`An-Nas`,ayah_count:6,index:114}};export{e as default};

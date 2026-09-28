@@ -1,0 +1,1 @@
+import{d as e,p as t}from"./Dqtyzu3I.js";import"./CJkwUziW.js";function n(){let n=t({show:!1,title:``,content:``});return{subscribe:n.subscribe,hide:()=>n.update(e=>({...e,show:!1})),show:e=>n.set({...e,show:!0}),toggle:t=>{let r=e(n);return r.show&&r.title===t.title?n.set({...t,show:!1}):n.set({...t,show:!0})}}}var r=n();export{r as t};

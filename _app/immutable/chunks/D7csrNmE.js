@@ -1,0 +1,1 @@
+var e={current:{translation:`Wanita`,arabic:`النساۤء`,latin:`An-Nisa'`,ayah_count:176,index:4},prev:{translation:`Keluarga Imran`,arabic:`اٰل عمران`,latin:`Ali 'Imran`,ayah_count:200,index:3},next:{translation:`Hidangan`,arabic:`الماۤئدة`,latin:`Al-Ma'idah`,ayah_count:120,index:5}};export{e as default};

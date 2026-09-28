@@ -1,0 +1,1 @@
+var e={current:{translation:`Keluarga Imran`,arabic:`اٰل عمران`,latin:`Ali 'Imran`,ayah_count:200,index:3},prev:{translation:`Sapi`,arabic:`البقرة`,latin:`Al-Baqarah`,ayah_count:286,index:2},next:{translation:`Wanita`,arabic:`النساۤء`,latin:`An-Nisa'`,ayah_count:176,index:4}};export{e as default};

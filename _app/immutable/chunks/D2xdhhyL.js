@@ -1,0 +1,1 @@
+var e={current:{translation:`Pertolongan`,arabic:`النصر`,latin:`An-Nasr`,ayah_count:3,index:110},prev:{translation:`Orang-Orang kafir`,arabic:`الكٰفرون`,latin:`Al-Kafirun`,ayah_count:6,index:109},next:{translation:`Api Yang Bergejolak`,arabic:`اللهب`,latin:`Al-Lahab`,ayah_count:5,index:111}};export{e as default};

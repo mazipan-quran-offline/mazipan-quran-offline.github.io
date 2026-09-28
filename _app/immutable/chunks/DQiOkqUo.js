@@ -1,0 +1,1 @@
+var e={current:{translation:`Tempat Naik`,arabic:`المعارج`,latin:`Al-Ma'arij`,ayah_count:44,index:70},prev:{translation:`Hari Kiamat`,arabic:`الحاۤقّة`,latin:`Al-Haqqah`,ayah_count:52,index:69},next:{translation:`Nuh`,arabic:`نوح`,latin:`Nuh`,ayah_count:28,index:71}};export{e as default};
